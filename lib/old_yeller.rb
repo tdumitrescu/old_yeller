@@ -1,5 +1,7 @@
 require "old_yeller/version"
 
 module OldYeller
-  # Your code goes here...
+  def self.bark(s)
+    "RUFF! #{s}"
+  end
 end
